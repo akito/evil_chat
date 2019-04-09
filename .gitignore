@@ -65,5 +65,8 @@ yarn-debug.log*
 /storage/*
 !/storage/.keep
 
-#ruby mine
+# Ignore RubyMine files
 /.idea/*
+
+# Mac
+.DS_Store
