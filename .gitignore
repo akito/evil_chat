@@ -64,3 +64,9 @@ yarn-debug.log*
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep
+
+# Ignore RubyMine files
+/.idea/*
+
+# Mac
+.DS_Store

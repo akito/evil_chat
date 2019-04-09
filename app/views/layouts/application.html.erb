@@ -4,12 +4,12 @@
     <title>EvilChat</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag 'application', media: 'all' %>
-    <%= javascript_pack_tag 'application' %>
+    <%= stylesheet_pack_tag 'application' %>
   </head>
 
   <body>
+  <!-- app/views/layouts/application.html.erb-->
     <%= yield %>
+    <%= javascript_pack_tag 'application' %>
   </body>
 </html>
